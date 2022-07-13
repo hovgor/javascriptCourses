@@ -46,29 +46,120 @@
 
 
 
-var coins = {
-    'p': 1,
-    'n': 5,
-    'd': 10,
-    'q': 25
-  };
+//  var coins = {
+//     'p': 1,
+//     'n': 5,
+//     'd': 10,
+//     'q': 25
+//   };  
+//   var coinsByAmount = ['q', 'd', 'n', 'p'];
   
-  var coinsByAmount = ['q', 'd', 'n', 'p'];
+//   module.exports = {
+//     convertToChange: function(amount) {
+//       var change = [];
+//       for(var i in coinsByAmount){
+//         var coinType = coinsByAmount[i];
+//         var coinValue = coins[coinType];
   
-  module.exports = {
-    convertToChange: function(amount) {
-      var change = [];
-      for(var i in coinsByAmount){
-        var coinType = coinsByAmount[i];
-        var coinValue = coins[coinType];
-  
-        while(amount >= coinValue){
-          change.push(coinType);
-          amount -= coinValue;
-        }
-      }
-      return change;
-    }
-  };
+//         while(amount >= coinValue){
+//           change.push(coinType);
+//           amount -= coinValue;
+//         }
+//       }
+//       return change;
+//     }
+//   };
 
-  console.log(convertToChange(89));
+// //  console.log(convertToChange(89));
+
+
+function fib(num){
+if(num < 2){
+	return 1;
+   }else{
+	return fib(num -2) + fib(num - 1);
+    }
+}
+
+
+// // console.log(fib(7));
+
+
+// function regStrfirst3let(str){
+// console.log(str);
+// let result = /\d(?:\D*\d){2}/.exec(str);
+// console.log(result);
+// }
+
+
+// regStrfirst3let('asdewr123dfgtry1234');
+
+
+
+
+// let swap = (a,b)=>{
+//   a = a - b;//-9
+//   b = a + b;//-4
+//   a = b - ( a);//5
+//   return a, b;
+// }
+
+// let x = 3;
+// let y = 5;
+
+// swap(x,y);
+
+// console.log(x);
+
+
+
+
+// const FibonacciNumber = (number) => {
+//     let k = 0;
+//     let z = 1;
+//     let result = [];
+//     for (let i = 0; i < number / 2; ++i) {
+//       k = k + z;
+//       result.push(k);
+//       z = z + k;
+//       result.push(z);
+//     }
+//     return result;
+//   };
+  
+//   console.log(FibonacciNumber(2));
+
+
+//   console.log(fib(2));
+
+
+
+//   function fibs(count){
+//     let k = 0;
+//     let z = 1;
+//     let result = [1];
+
+//     for(let i = 0; i < count; ++i){
+//         if(result[i-1]){
+//             k = result[i-1];
+//         }
+//         z = k + result[i];
+//         k = z;
+//         result.push(z);
+//     }
+// return result;
+
+//   }
+
+
+
+//   console.log(fibs(7));
+
+
+
+
+
+console.log(fib(2));
+
+
+
