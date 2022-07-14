@@ -73,13 +73,13 @@
 // //  console.log(convertToChange(89));
 
 
-function fib(num){
-if(num < 2){
-	return 1;
-   }else{
-	return fib(num -2) + fib(num - 1);
-    }
-}
+// function fib(num){
+// if(num < 2){
+// 	return 1;
+//    }else{
+// 	return fib(num -2) + fib(num - 1);
+//     }
+// }
 
 
 // // console.log(fib(7));
@@ -159,7 +159,40 @@ if(num < 2){
 
 
 
-console.log(fib(2));
+// // console.log(fib(2));
+// const arr = [1,2,3,4];
+// let newarr = arr.forEach((elem)=>{
+//     let z = elem * 2;
+//     console.log(z);
+// });
+// console.log('foreach => ',newarr);
+
+// const WebSocket = require('ws');
 
 
+// let socket = new WebSocket("wss://localhost:3011");
 
+// socket.onopen = function(e) {
+//     if(e)return new Error('erroring!!!');
+//     console.log("[open] Соединение установлено");
+//   console.log("Отправляем данные на сервер");
+//   socket.send("Меня зовут Джон");
+// };
+
+// socket.onmessage = function(event) {
+//     console.log(`[message] Данные получены с сервера: ${event.data}`);
+// };
+
+// socket.onclose = function(event) {
+//   if (event.wasClean) {
+//     console.log(`[close] Соединение закрыто чисто, код=${event.code} причина=${event.reason}`);
+//   } else {
+//     // например, сервер убил процесс или сеть недоступна
+//     // обычно в этом случае event.code 1006
+//     console.log('[close] Соединение прервано');
+//   }
+// };
+
+// socket.onerror = function(error) {
+//   console.log(`[error] ${error.message}`);
+// }
