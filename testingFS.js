@@ -196,3 +196,52 @@
 // socket.onerror = function(error) {
 //   console.log(`[error] ${error.message}`);
 // }
+
+// const _ = require('lodash');
+
+// const arr = [1,2,3,4,5];
+//  const arr2 = _.without(arr,1,2);
+//  console.log(arr2);
+//  console.log(arr);
+
+// const arr = ['aa', 'Ba'];
+// arr.sort();
+// console.log(arr);
+
+
+
+
+// const balls = ['Ball', 'Ball s', ' bald'].sort((a,b)=>{
+//     a+b
+// });
+// console.log(balls);
+// var re = /\s* \s*/;
+
+// let jjj =balls[1].split(re)
+// console.log(jjj);
+
+// let callCount = 0;
+//       const compare = (a,b) => {
+//   a-b
+//        };
+//       let zzz=['3', '1', 2, '11'].sort(compare)
+//       console.log(zzz);
+
+
+
+// let aaa = Array.from({ length: 5 }, ( v,k) => 
+// {
+// return k
+
+// });
+// console.log(aaa);
+var arr = ['a', 'b', 'c'];
+var eArr = arr.entries();
+
+console.log(eArr.next().value); // [0, 'a']
+console.log(eArr.next().value); // [1, 'b']
+console.log(eArr.next().value); // [2, 'c']
+
+
+
+
